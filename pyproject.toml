@@ -30,7 +30,7 @@ lxml = ["lxml>=4.9"]
 dev = ["pytest>=7", "pytest-cov>=4", "ruff>=0.4", "mypy>=1.8", "types-requests"]
 
 [project.urls]
-Homepage = "https://github.com/kuroazai/BeautifulSoup"
+Homepage = "https://github.com/kuroazai/soupkit"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/soupkit"]
